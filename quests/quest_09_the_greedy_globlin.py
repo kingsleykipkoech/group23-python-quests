@@ -1,10 +1,9 @@
-#!/usr/bin/python3
+gold = 27  # total  gold
+friends = 4  # how many friends to share with
 
-gold = 27
-friends = 4
-
-each_friend_gets = gold // friends
-goblin_keeps = gold % friends
+each_friend_gets = gold // friends   # divide equally
+goblin_keeps = gold % friends     # what is left 
 
 print("Each friend gets:", each_friend_gets)
 print("The goblin keeps:", goblin_keeps)
+
